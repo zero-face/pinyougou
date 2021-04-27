@@ -1,0 +1,38 @@
+/* 初始化样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+button,
+input {
+    /* 取消默认轮廓线 */
+    outline: none;
+}

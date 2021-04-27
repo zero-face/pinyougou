@@ -1,0 +1,36 @@
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    height: 32px;
+    border-left: 1px solid #C40000;
+    padding: 5px 0 0 15px;
+}
+
+.sk-list li {
+    float: left;
+    line-height: 45px;
+    margin: 0 30px;
+}
+
+.sk-list li a {
+    font-size: 14px;
+    color: #000;
+    /* font-weight不带单位 */
+    font-weight: 700;
+}
+
+.sk-list li a:hover {
+    color: #C81623;
+}
+
+.sk-con li {
+    float: left;
+    line-height: 45px;
+    margin: 0 20px;
+}
+
+.sk-con li a {
+    font-size: 14px;
+    font-weight: 700;
+}

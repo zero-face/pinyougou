@@ -1,0 +1,350 @@
+/* 首页样式 */
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 190px;
+}
+
+.focus {
+    position: relative;
+    overflow: hidden;
+    width: 721px;
+    height: 455px;
+    background: purple;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arr_l,
+.arr_r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background-color: pink;
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    z-index: 2;
+}
+
+.arr_l {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.arr_r {
+    left: 100%;
+    margin-left: -24px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff;  */
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle .current {
+    background-color: #fff;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #E4E4E4;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #E4E4E4;
+    border-top: none;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    display: block;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.service_ico_huafei {
+    background-position: -18px -15px;
+}
+
+.service_ico_jipiao {
+    background-position: -79px -18px;
+}
+
+.service_ico_dianying {
+    background-position: -142px -18px;
+}
+
+.service_ico_youxi {
+    background-position: -205px -18px;
+}
+
+.service_ico_caipiao {
+    background-position: -18px -88px;
+}
+
+.service_ico_jiayou {
+    background-position: -79px -88px;
+}
+
+.service_ico_jiudian {
+    background-position: -142px -88px;
+}
+
+.service_ico_huoche {
+    background-position: -203px -88px;
+}
+
+.service_ico_zhongchou {
+    background-position: -18px -159px;
+}
+
+.service_ico_licai {
+    background-position: -79px -159px;
+}
+
+.service_ico_lipin {
+    background-position: -142px -156px;
+}
+
+.service_ico_baitiao {
+    background-position: -203px -159px;
+}
+
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+    border: 1px solid #E4E4E4;
+}
+
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #E4E4E4;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.news-hd a {
+    float: right;
+    margin-right: 10px;
+}
+
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+
+.news-bd li {
+    height: 23px;
+    font-size: 12px;
+}
+
+.recommed {
+    margin-top: 10px;
+    height: 163px;
+}
+
+.recommed-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5C5251;
+    text-align: center;
+}
+
+.recommed-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recommed-hd h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.recommed-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #EBEBEB;
+}
+
+.recommed-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    margin-top: 10px;
+    border-right: 1px solid #DDDDDD;
+}
+
+.recommed-bd .last {
+    border-right: 0;
+}
+
+
+/* floor 楼层区 */
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #C81623;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #C81623;
+}
+
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0 10px;
+}
+
+.box-bd {
+    height: 360px;
+}
+
+.box-bd li {
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+
+.box-bd img {
+    /* 过渡写到本身上，谁做动画给谁加 */
+    transition: all 0.2s;
+}
+
+.box-bd img:hover {
+    margin-left: 10px;
+}
+
+.w209 {
+    width: 209px;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #EDEDED;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #EDEDED;
+}
+
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #EDEDED;
+}
+
+.tab-con ul {
+    background-color: #F9F9F9;
+}
+
+.tab-con ul li {
+    width: 86px;
+    height: 32px;
+    border-bottom: 1px solid #EDEDED;
+    margin-left: 12px;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/* 电梯导航 */
+
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    /* 版心的一半+盒子宽度 */
+    margin-left: -666px;
+    width: 66px;
+    background-color: #fff;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #C81623;
+}

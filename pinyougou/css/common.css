@@ -1,0 +1,364 @@
+/* 公共样式 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* shortcut start */
+
+.shortcut {
+    height: 31px;
+    background-color: #F1F1F1;
+    line-height: 31px;
+}
+
+.shortcut li {
+    float: left;
+    color: #666666;
+}
+
+.style-red {
+    color: #C81623;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+    margin: 9px 12px 0;
+    /* margin三个值：上、左右、下 */
+}
+
+
+/* shortcut end */
+
+
+/* header start */
+
+.header {
+    position: relative;
+    height: 105px;
+    background-color: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    margin-top: -28px;
+    width: 175px;
+    height: 56px;
+}
+
+.logo a {
+    display: block;
+    overflow: hidden;
+    width: 175px;
+    height: 56px;
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+}
+
+.search .text {
+    float: left;
+    width: 445px;
+    height: 32px;
+    border: 2px solid #B1191A;
+    padding-left: 10px;
+    color: #ccc;
+}
+
+.search .btn {
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #B1191A;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.hotwords {
+    position: absolute;
+    top: 65px;
+    left: 348px;
+}
+
+.hotwords a {
+    margin: 0 5px;
+}
+
+.hotwords a:hover {
+    color: #C81623;
+}
+
+.shopcar {
+    position: absolute;
+    right: 64px;
+    top: 25px;
+    width: 138px;
+    height: 34px;
+    background-color: #F7F7F7;
+    line-height: 34px;
+    color: #666666;
+}
+
+.shopcar .car {
+    color: #DA5555;
+}
+
+.shopcar .arrow {
+    color: #A4A4A4;
+}
+
+.count {
+    position: absolute;
+    /* 加了定位的盒子，默认转化为行内块 */
+    top: -5px;
+    left: 105px;
+    background-color: #E60012;
+    height: 14px;
+    padding: 0 3px;
+    line-height: 14px;
+    color: #ffffff;
+    /* border-radius: 左上角 右上角 右下角 左下角; */
+    border-radius: 7px 7px 7px 0;
+}
+
+
+/* header end */
+
+
+/* nav start */
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #B1191A;
+}
+
+.dropdown {
+    width: 209px;
+    height: 45px;
+}
+
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    background-color: #B1191A;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 45px;
+}
+
+.dropdown .dd {
+    height: 465px;
+    background-color: #C81623;
+    margin-top: 2px;
+}
+
+.menu_item {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    /* 如果一个盒子没有宽度，padding值就不会撑开盒子 */
+    padding-left: 10px;
+    transition: all 0.5s;
+}
+
+.menu_item:hover {
+    padding-left: 20px;
+    background-color: #ffffff;
+}
+
+.menu_item:hover a {
+    color: #C81623;
+}
+
+.menu_item a {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.menu_item i {
+    float: right;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.navitems {
+    margin-left: 10px;
+}
+
+.navitems li {
+    float: left;
+}
+
+.navitems li a {
+    display: block;
+    height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.navitems a:hover {
+    color: #C81623;
+}
+
+
+/* nav end */
+
+
+/* footer start */
+
+.footer {
+    height: 386px;
+    background-color: #F5F5F5;
+    padding-top: 36px;
+}
+
+.mod_service {
+    height: 79px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_service li {
+    float: left;
+    width: 240px;
+    height: 79px;
+}
+
+.mod_service_zheng {
+    /* i是行内元素 需要转换显示模式 浮动可以直接给大小，不用转换 */
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons.png) no-repeat -252px -2px;
+    margin-left: 35px;
+}
+
+.mod_service_title {
+    float: left;
+    margin-left: 5px;
+}
+
+.mod_service_title h5 {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.mod_service_title p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.mod_service_ji {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons.png) no-repeat -254px -53px;
+    margin-left: 35px;
+}
+
+.mod_service_wu {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons.png) no-repeat -256px -105px;
+    margin-left: 35px;
+}
+
+.mod_service_te {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons.png) no-repeat -258px -156px;
+    margin-left: 35px;
+}
+
+.mod_service_bang {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons.png) no-repeat -255px -208px;
+    margin-left: 35px;
+}
+
+.mod_help {
+    height: 187px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_help_item {
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+
+.mod_help_item dt {
+    height: 25px;
+    font-size: 16px;
+}
+
+.mod_help_item dd {
+    height: 25px;
+}
+
+.mod_help_item {
+    float: left;
+}
+
+.mod_help_app dt {
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.mod_help_app p {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.mod_help_app img {
+    margin-right: 7px 0;
+}
+
+.mod_copyright {
+    /* 文本样式可以继承 */
+    text-align: center;
+    color: #666666;
+}
+
+
+/* footer end */
